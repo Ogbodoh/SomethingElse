@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ChelisAppNew.exe" version="1.0.0.0" publicKeyToken="2bead817cccedab7" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="chelisicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ChelisAppNew" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ChelisAppNew.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChelisAppNew.exe" size="476168">
+      <assemblyIdentity name="ChelisAppNew" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Cn6yRzWmgSAdSXM/F9KrrRByWM0eEX4sXaUcpW8FlvI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5225168">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nCD7KthqdgsMauvZMByQCYkdAq4UcgqTkmwLU1uK0Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="622288">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4OEmw7inupUB0D+Z1Upcu9F0vOy2FwCYq0zBIZ8n+TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ChelisAppNew.exe.config" size="1324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+nkyPGMpbWwt+FGZu/he8Kd8zz+OuUerlGtGtBdX/Qw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="chelisicon.ico" size="56757">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>747XCTVtUqBZLxzjIvKHFw4A4nBaLAugErSQKceLrhY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ChelisModel.Context.tt" size="22935">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3x0EA9MTV+vfa6GiEoliv9Adv9OpU00O0LjOYqAw9FU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ChelisModel.tt" size="25315">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Rn4UtAp0eYGSkgGg+tLQlD59uIaHlq8x6o9End+1cWk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-QIETMFC2\Chelis Group" issuerKeyHash="0ca3ebd305f41f8f1b630f471a971d9a6165adec" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LIlpqJGe7njTD5IBX7wzMs2Okl90zM7PVeBvep7ZT6c=</DigestValue></Reference></SignedInfo><SignatureValue>rtl6VeY47jRu27xaIFN0f3gkCoWWXdI1mzlcSNkOwOreAgxiz5XH7vKDVKGs323xV4Lu/MqO88Rc0winhIxV9zIIofZ8+b+RrgKJu1uD3xnAsLIMPduHgglgSPAU/kk3K6+Qm5jdGgHXGmp1mTWeYgY91BNoAAYH+XQQjKWC5tk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>r8j9focvBBrD2oAiMd1mM1cII1l78A1wwI/5vYCTxtMZPZS7cmQdBrfWzBCYeWkE390P5JZmohq9KjWl6+CVe0SvoVHjU3XWIS8IH5zl8pp+1NO+umFYYe7lDYIKh3TGUOP9/YTiusyywvc9QPcNRITd9+O2+w+F+gMjNQ01szU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a74fd99e7a6fe055cfcecc745f928ecd3233bc5f01920fd378ee9e91a869892c" Description="" Url=""><as:assemblyIdentity name="ChelisAppNew.exe" version="1.0.0.0" publicKeyToken="2bead817cccedab7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-QIETMFC2\Chelis Group</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tz7XCkShe7SnyVWwlR3hWb1Yp4F6i69jTAmcPlTevJY=</DigestValue></Reference></SignedInfo><SignatureValue>RUJ5zfPYPzZF/S9Oj+5PcR+Uh3hdJF0DVWIUQ/11va+CbAdisHQMCMu3MucjvWZdWRfZPi8iobPqxxb86wmsLKMZx8OMFPQl5AcsP+n27GBscBvA9urerL8mqHCogB5hU25pa6SlBwS44bNvBPKHc6gDY49nw3oA1OJBhvFFf5k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>r8j9focvBBrD2oAiMd1mM1cII1l78A1wwI/5vYCTxtMZPZS7cmQdBrfWzBCYeWkE390P5JZmohq9KjWl6+CVe0SvoVHjU3XWIS8IH5zl8pp+1NO+umFYYe7lDYIKh3TGUOP9/YTiusyywvc9QPcNRITd9+O2+w+F+gMjNQ01szU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQVccfIEuJ6LtPQ2WnjA4EPjANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgATABBAFAAVABPAFAALQBRAEkARQBUAE0ARgBDADIAXABDAGgAZQBsAGkAcwAgAEcAcgBvAHUAcDAeFw0yMDEwMzAxNzA1MDJaFw0yMTEwMzAyMzA1MDJaMEMxQTA/BgNVBAMeOABMAEEAUABUAE8AUAAtAFEASQBFAFQATQBGAEMAMgBcAEMAaABlAGwAaQBzACAARwByAG8AdQBwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvyP1+hy8EGsPagCIx3WYzVwgjWXvwDXDAj/m9gJPG0xk9lLtyZB0Gt9bMEJh5aQTf3Q/klmaiGr0qNaXr4JV7RK+hUeNTddYhLwgfnOXymn7U0766YVhh7uUNggqHdMZQ4/39hOK6zLLC9z1A9w1EhN3347b7D4X6AyM1DTWzNQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACjGcG6ZG3gxzSEAumNNZyExrwEoS2TygItUmXatIJyfjOmVPbVPXlj37q/ZexZNSgw1lAuSFIrltIbwDFVtY6gWzgzZ5EE01qJzRkD+QDeB0oJrZnPsYFC0mCub3+CI3YXT6YHFPCEzv2XpwXbM3G0LnU4cWJQT/x7PrGXzQPhe</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
